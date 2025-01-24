@@ -7,14 +7,20 @@
 
 .main {
     width: 100%;
+    /* position: relative; */
     /* border: 2px solid red; */
 }
+
+/* ........This is a Header........ */
 
 .header {
     width: 100%;
     background-color: white;
     border-bottom: 1px solid rgb(184, 192, 184);
     padding-bottom: 20px;
+    border: 2px solid red;
+    /* position:sticky;
+    top: 0 ; */
 }
 
 .logo {
@@ -115,11 +121,12 @@ select {
     padding: 10px;
 }
 
-/* .sell-button{
-} */
-.categourie {
+/* ........ This is a Caterogry................. */
+
+.categorie{
     width: 100%;
     padding-left: 30px;
+    margin-top: 50px;
     font-size: 16px;
     /* border: 1px solid red; */
 }
