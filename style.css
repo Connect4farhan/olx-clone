@@ -214,17 +214,18 @@ h4 p {
 }
 
 .clasified-card {
-    border: 1px solid rgb(197, 188, 188);
-    box-shadow: 0 1px 3px gray;
+    border: 1px solid rgb(214, 202, 202);
+    /* box-shadow: 0 1px 3px gray; */
     width: 200px;
+    height: 300px;
     border-radius: 5px;
     margin: 10px 0 10px 3%;
 }
 
 .clasified-card img {
     border-radius: 4px 4px 0 0;
-    width: 199px;
-    height: 180px;
+    width: 198px;
+    height: 130px;
 }
 
 .clasified-card h5 {
@@ -247,7 +248,7 @@ h4 p {
     font-size: 0.7rem;
     color: black;
     font-weight: 100;
-    margin: 10px 15px 15px 15px;
+    margin: 5px 15px 0px 15px;
 }
 
 .clasified-card p {
