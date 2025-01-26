@@ -8,6 +8,7 @@
 .main {
     width: 100%;
     position: relative;
+    border: 1px solid rgb(202, 155, 53);
 }
 
 /* ........This is a Header........ */
@@ -85,7 +86,7 @@ select {
     color: white;
     height: 35px;
     width: 35px;
-    margin: 0px -65px;
+    margin: 0px -40px;
     padding: 6px 8px;
 }
 
@@ -107,16 +108,12 @@ select {
     border-bottom: none;
 }
 
-.sell-button {
-    /* width: 150px; */
-    border: 4px solid #ffce32;
-    /* border-image: linear-gradient(45deg, #3a77ff, #ffce32, #23e523db)1; */
-    border-radius: 30px;
-    border-top: 10% 4px solid #3a77ff;
-    border-bottom: 4px solid #3a77ff;
-    border-left: 4px 50% solid #ffce32;
-    border-right: 3px solid #23e523db;
-    padding: 10px;
+.sell-btn-link{
+    margin: -48px 0 0 22px;
+}
+.sell-btn-link a{
+    text-decoration: none;
+    color: black;
 }
 
 /* ................. Caterogry ...................... */
@@ -160,29 +157,33 @@ li:hover {
 
 /* ................This is a All-Category Card-Area .............. */
 
-h4 {
-    width: 94%;
-    margin: 10px 30px 5px 30px;
+.cat-heading{
+    
+    width: 100%;
+    margin: 10px 30px 5px 0px;
+    padding: 10px 55px 5px 55px;
     font-size: 1rem;
-    /* border: 1px solid rgb(29, 173, 29); */
 }
 
-h4 p {
+.cat-heading p {
     float: right;
     font-size: 0.8rem;
-    padding: 4px;
+    
+}
+.cat-heading a{
+    text-decoration: none;
     color: #3a77ff;
 }
 
 .card-area {
     /* border: 1px solid rgb(0, 44, 238); */
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    /* margin: 10px 5% 10px 5%; */
+    margin: 10px 5% 10px 5%;
 
 
 }
@@ -194,7 +195,7 @@ h4 p {
     font-size: 0.6rem;
     align-content: center;
     cursor: pointer;
-    margin: 10px 30px;
+    margin: 10px 10px;
     padding: 10px 10px;
     align-self: normal;
 }
@@ -356,7 +357,9 @@ h4 p {
     font-size: 0.6rem;
     margin: 5px 10px;
 }
-
+.footer-column a{
+text-decoration: none;
+}
 .copyright {
     width: 100%;
     height: 30px;
