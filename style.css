@@ -77,11 +77,11 @@ select {
 
 .search-box {
     /* border: 1px solid black; */
-    width: 35%;
+    width: 30%;
 }
 
 .search-box input {
-    width: 430px;
+    width: 350px;
     height: 35px;
     border-radius: 4px;
     margin: 10px 30px 10px 20px;
