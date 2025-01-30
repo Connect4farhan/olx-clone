@@ -77,11 +77,11 @@ select {
 
 .search-box {
     /* border: 1px solid black; */
-    width: 45%;
+    width: 35%;
 }
 
 .search-box input {
-    width: 550px;
+    width: 430px;
     height: 35px;
     border-radius: 4px;
     margin: 10px 30px 10px 20px;
@@ -104,7 +104,7 @@ select {
     font-weight: 400;
     /* border: 1px solid black; */
     border-bottom: 2px solid black;
-    margin: 10px 15px 10px 0;
+    margin: 10px 20px;
 }
 
 .login a {
