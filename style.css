@@ -77,11 +77,11 @@ select {
 
 .search-box {
     /* border: 1px solid black; */
-    width: 40%;
+    width: 45%;
 }
 
 .search-box input {
-    width: 330px;
+    width: 550px;
     height: 35px;
     border-radius: 4px;
     margin: 10px 30px 10px 20px;
@@ -144,7 +144,8 @@ select {
 }
 
 .banner-1 img {
-    width: 100%;
+    width: 90%;
+    margin: 0 55px 0;
 }
 
 .cat:hover {
@@ -153,7 +154,7 @@ select {
 
 li {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 0.8em;
+    font-size: 1rem;
     display: inline-block;
     padding: 20px 0 0px 0px;
     margin-left: 30px;
@@ -399,267 +400,4 @@ li:hover {
 
 .copyright p {
     margin: 10px 40px 5px 0;
-}
-
-/* ................. Media Qurey ................... */
-@media only screen and (max-width: 1440px) {
-    .header {
-        border: 1px solid rgb(135, 7, 255);
-        width: 100%;
-        background-color: white;
-        /* border-bottom: 1px solid rgb(184, 192, 184); */
-        padding-bottom: 20px;
-        padding-left: 30px;
-        position: fixed;
-        top: 0;
-    }
-    select {
-        width: 400px;
-        height: 35px;
-        padding: 0 12px;
-        border-radius: 4px;
-        margin: 10px 0px 10px 30px;
-        /* appearance: none; */
-        border: 1px solid gray;
-    }
-    
-    .search-box {
-        /* border: 1px solid black; */
-        width: 45%;
-    }
-    
-    .search-box input {
-        width: 550px;
-        height: 35px;
-        border-radius: 4px;
-        margin: 10px 30px 10px 20px;
-        border: 1px solid gray;
-    
-    }
-    
-    .search-box i {
-        background-color: rgb(37, 56, 64);
-        border-radius: 0 4px 4px 0;
-        color: white;
-        height: 35px;
-        width: 35px;
-        margin: 0px -40px;
-        padding: 6px 8px;
-    }
-    
-    .login {
-        width: 50px;
-        font-weight: 400;
-        /* border: 1px solid black; */
-        border-bottom: 2px solid black;
-        margin: 10px 15px 10px 0;
-    }
-    
-    .login a {
-        color: black;
-    }
-    
-    .login:hover {
-        font-weight: 700;
-        color: black;
-        border-bottom: none;
-    }
-    
-    .sell-btn-link {
-        margin: -48px 0 0 22px;
-    }
-    
-    .sell-btn-link a {
-        text-decoration: none;
-        color: black;
-    }
-    li {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 1rem;
-        display: inline-block;
-        padding: 20px 0 0px 0px;
-        margin-left: 30px;
-    }
-    * {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    
-    .clasified-cat {
-        width: 94%;
-    }
-
-    .clasified-card {
-        border: 1px solid rgb(214, 202, 202);
-        /* box-shadow: 0 1px 3px gray; */
-        width: 300px;
-        height: 350px;
-        border-radius: 5px;
-        margin: 10px 0 10px 3%;
-    }
-
-    .clasified-card img {
-        border-radius: 4px 4px 0 0;
-        width: 298px;
-        height: 200px;
-    }
-
-    .footer {
-        width: 100%;
-    }
-
-    .banner-sotrebadge {
-        width: 40%;
-        height: 150px;
-        /* padding-left: 75px; */
-        border: 2px solid green;
-        margin: 0 auto;
-    }
-    .sotrebadge-img {
-        width: 100%;
-        display: flex;
-        justify-content:flex-start;
-        margin: 10px 0 10px 10px;
-    }
-    .sotrebadge-img2 {
-        border: 1px solid red;
-        width: 70%;
-        display: flex;
-        justify-content:flex-start;
-        margin: 0 auto;
-    }
-    
-    .sotrebadge-img img {
-        width: 80px;
-        height: 40px;
-        margin-left: 10px;
-        cursor: pointer;
-    }
-    .sotrebadge-img2 img {
-        width: 80px;
-        height: 40px;
-        margin: 0 auto;
-        cursor: pointer;
-        
-    }
-    .banner-sotrebadge p {
-        font-size: 0.6rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        margin: 40px 0 10px 85px;
-    }
-    .banner-text {
-        width: 23%;
-        height: 150px;
-    }
-
-    .cat-heading {
-        width: 100%;
-        margin: 10px 25px 5px 0px;
-        padding: 10px 40px 5px 80px;
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .logo {
-        width: 300px;
-    }
-
-    a {
-        margin-left: 40px;
-        text-decoration: none;
-        color: black;
-    }
-
-    .logo i {
-        margin-left: 18px;
-    }
-
-    ul {
-        display: none;
-    }
-
-    .search-box {
-        display: none;
-    }
-
-    .header-items {
-        display: none;
-    }
-
-    .header {
-        width: 375px;
-        background-color: white;
-        border-bottom: 1px solid rgb(184, 192, 184);
-        padding-bottom: 20px;
-        padding-left: 0px;
-        position: fixed;
-        top: 0px;
-    }
-
-    .cat-heading h4 {
-        text-align: center;
-        /* margin: 0px 0px 0px 0px; */
-    }
-
-    .card-area {
-        /* border: 1px solid rgb(0, 44, 238); */
-        width: 94%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: center;
-        text-align: center;
-        margin: 10px 0 10px 20%;
-    }
-
-    .clasified-cat {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 240px;
-        /* border: 1px solid red; */
-        margin: 0 20px;
-    }
-
-    .clasified-card {
-        border: 1px solid rgb(214, 202, 202);
-        /* box-shadow: 0 1px 3px gray; */
-        width: 300px;
-        height: 350px;
-        border-radius: 5px;
-        margin: 14px 0 10px 45%;
-    }
-
-    .selecet-option select {
-        width: 100px;
-    }
-
-    .header-items {
-        width: 375px;
-        border: 1px solid red;
-    }
-
-    .banner-2 img {
-        width: 80%;
-        margin: 0 0 10px 12%;
-    }
-
-    .banner-3 {
-        display: none;
-    }
-
-    .footer {
-        display: none;
-    }
-
-    .copyright {
-        width: 375px;
-    }
-
-}
+}   
